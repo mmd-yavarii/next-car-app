@@ -8,6 +8,19 @@
   padding: 1em;
 }
 
+.info {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  background-color: #1e8fff2b;
+  color: dodgerblue;
+  padding: 0.2em 0.3em;
+  border-radius: 10px;
+}
+
 .cardContainer {
   border-radius: 8px;
   box-shadow: 1px 2px 5px #00000023;

@@ -1,12 +1,20 @@
+import CarsList from '@/components/CarsList';
+import carsData from '@/data/carsData';
 import { useRouter } from 'next/router';
 
 function CategoryCar() {
   const router = useRouter();
   const { category } = router.query;
 
-  console.log(category);
+  const cars = carsData.filter((i) => i.category == category);
 
-  return <div>CategoryCar</div>;
+  return (
+    <div>
+      <h1>{category}</h1>
+
+      <CarsList data={cars} />
+    </div>
+  );
 }
 
 export default CategoryCar;

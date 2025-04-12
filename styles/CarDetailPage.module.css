@@ -1,0 +1,23 @@
+.title {
+  margin: 1em 0.5em;
+}
+
+.image {
+  width: 100%;
+}
+
+.session {
+  margin: 1em 0.2em;
+
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px #0000002c;
+  text-align: justify;
+  padding: 1em 2em;
+}
+
+.session p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 0;
+}
